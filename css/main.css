@@ -1,0 +1,397 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap");
+.letras {
+  color: black;
+}
+
+.colorboton {
+  background-color: #e7b99f;
+  border-color: #f3e1d7;
+}
+.colorboton:hover {
+  background-color: #966c60;
+  border-color: #f3e1d7;
+}
+
+.colorboton2 {
+  background-color: #d1b49f;
+  border-color: #f3e1d7;
+}
+.colorboton2:hover {
+  background-color: #e7b99f;
+  border-color: #f3e1d7;
+}
+
+.colorHeader {
+  background-color: #d1b49f;
+  border-radius: 1 rem;
+}
+
+.titulonav {
+  padding: 0;
+  margin: 0;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f3e1d7;
+  font-family: "poppins", sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem 0;
+  border-bottom: 2px solid black;
+  background-color: #d1b49f;
+}
+
+.logo {
+  width: 50px;
+}
+
+.nav {
+  width: 40%;
+}
+
+.nav__menu {
+  list-style-type: none;
+  display: flex;
+  font-size: 18px;
+  justify-content: space-evenly;
+}
+
+.nav__menu a {
+  text-decoration: none;
+  color: black;
+}
+
+.nav__menu:hover {
+  font-size: 20px;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 750px;
+}
+
+main img {
+  width: 500px;
+  border-radius: 15px;
+}
+
+main article {
+  height: 300px;
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: auto;
+}
+
+article button {
+  width: 100px;
+  height: 30px;
+  font-size: 16px;
+}
+
+article h1 {
+  font-size: 50px;
+}
+
+article p {
+  font-size: 18px;
+}
+
+/* Seccion 2 Inicio */
+.mainSection {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.card__titulo {
+  color: black(0, 0, 0);
+  margin-top: 2rem;
+}
+
+.card__parrafo {
+  margin-top: 1rem;
+}
+
+.card__img {
+  width: 150;
+  height: 200;
+  border-radius: 15px;
+  transition-property: all;
+  transition-duration: 5s;
+  transition-timing-function: linear;
+}
+
+.card {
+  width: 350px;
+  height: 500;
+  background-color: #d1b49f;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 2rem;
+  margin: 2rem auto;
+}
+
+/* Seccion 3 Inicio */
+.seccionTemas {
+  flex-direction: column;
+  color: black;
+}
+
+.titulo__temas {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.subtitulos__temas {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* seccion 4 Inicio */
+.mainSection2 {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.card2 {
+  width: 350px;
+  height: 500;
+  background-color: #d1b49f;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 2rem;
+  margin: 2rem auto;
+}
+.card2:hover {
+  width: 300px;
+  height: 300px;
+}
+
+/* SECCION 5 PRODUCTOS */
+.seccionProductos {
+  margin-top: 100px;
+  height: 750px;
+  display: flex;
+  flex-direction: column;
+}
+
+.imgProductos5 {
+  width: 50%;
+  border-radius: 15px;
+  float: right;
+}
+
+.textoProductos5 {
+  margin-top: 2rem;
+  width: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: auto;
+  font-size: 18px;
+}
+
+.tituloProductos5 {
+  margin-top: 2rem;
+  font-size: 50px;
+  align-items: center;
+  justify-content: center;
+}
+
+.artProductos5 {
+  font-size: 18px;
+}
+
+/* Seccion 6 Contacto */
+.imgcontacto {
+  width: 700px;
+  margin: 10px 300px;
+}
+
+/* Pagina Productos */
+.paginaProductos {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.card3 {
+  width: 200px;
+  height: 250px;
+  background-color: #d1b49f;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 2rem;
+}
+.card3:hover {
+  background-color: #e7b99f;
+  border-color: #f3e1d7;
+}
+
+.imgProductos {
+  background-color: #d1b49f;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 2rem;
+  transition-property: all;
+  transition-duration: 5s;
+  transition-timing-function: linear;
+}
+
+/* Nosotros Pagina*/
+.sectionNosotros {
+  margin: 2rem auto;
+  margin-block-end: 4rem;
+}
+
+.textoNosotros {
+  width: 90%;
+  font-size: 20px;
+  margin: 2rem auto;
+}
+
+.divNosotros2 {
+  margin-top: 25px;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.imgNosotros {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  margin: 2rem auto;
+}
+
+/* Pagina Podcast */
+.titulo__podcst {
+  margin-top: 2rem;
+  display: flex;
+  padding: 15px 2rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.imgPodcast {
+  width: 400px;
+  height: 200px;
+  background-color: #d1b49f;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+  padding: 15px 2rem;
+}
+
+.textoPodcast {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem auto;
+}
+
+.divPodcast {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+table {
+  color: black;
+  border-style: none;
+  display: flex;
+  padding: 15px 2rem;
+  align-items: center;
+}
+
+/* Pagina Contacto */
+.secPagContactos {
+  border-style: none;
+  display: flex;
+  padding: 15px 2rem;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Galeria */
+.galeria {
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 2px;
+  grid-auto-rows: 100px;
+  grid-auto-flow: row dense;
+}
+
+.galeria img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.galeria img:nth-child(3n) {
+  grid-area: span 2/span 1;
+}
+
+/*
+.galeria img:nth-child(2n){
+    grid-area: span 1 / span 4;
+}
+*/
+.galeria img:nth-child(6n) {
+  grid-area: span 2/span 1;
+}
+
+footer img {
+  width: 40px;
+}
+
+footer p {
+  width: 90%;
+  font-size: 20px;
+}
+
+footer {
+  /* margin-top: 100px; */
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  background-color: #d1b49f;
+}
+
+/*# sourceMappingURL=main.css.map */
